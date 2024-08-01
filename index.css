@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    padding: 0 50px 100px 50px;
+    margin-top: 0;
+}
+.active {
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: white;
+      
+}
+
+
+.image-tabs {
+    position: relative;
+  }
+  
+  .image-tabs img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tabs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .tab {
+    background-color: #8a1515;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    background-color: #ccc;
+  }
+  header img {
+    top: 25px;
+    position: absolute;
+    color: #fff;
+    margin-top: 0;
+  }
+    header h1 {
+    top: 25px;
+    position: absolute;
+    color: #fff;
+    margin-left: 100px;
+  }
+  
+  .navbar {
+    font-family: 'Edu Australia VIA WA NT Hand', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    top: 0%;
+    position: absolute;
+    color: #fff;
+    width: 1000px;
+    
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo img {
+    margin-top: 0;
+    position: absolute;
+    padding-top: 0;
+    margin-bottom: 1000px;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+  }
+  .section1 {
+    top: 25px;
+    position: absolute;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-top: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: large;
+  }
+  .welcome {
+    margin-left: 110px;
+    font-family: 'playfare design', sans-serif;
+    font-weight: 2500;
+    font-size: 50px;
+    text-align: center;
+
+  }
+  .hadith {
+    font-size: 30px;
+  }
+  .section2 {
+    top: 25px;
+    position: absolute;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: large;
+  }
+  .best {
+    overflow: hidden;
+    margin-left: 800px;
+
+  }
